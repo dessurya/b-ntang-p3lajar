@@ -1,0 +1,134 @@
+@media (min-width: 600px){
+    #header_section #contain p{
+        display: none;
+    }
+    #program_section{
+        margin-top: 60px;
+    }
+    #program_section .wave.top{
+        top: -65px;
+    }
+    #program_section .wave.bot{
+        bottom: -65px;
+    }
+    #program_section #bottom_img_ps{
+        bottom: -135px;
+    }
+    #keungugulan_section iframe{
+        width: 480px;
+        height: 320px;
+    }
+    #keungugulan_section #points .points-list img{
+        display: none;
+    }
+}
+@media (max-width: 568px){
+    body{
+        /* font-size: 12pt; */
+    }
+    h1{
+        font-size: 22pt;
+    }
+    .mobile_hide{
+        display: none;
+    }
+    .only_mobile{
+        display: initial;
+    }
+    .section_padding{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #header_section #logo_hs #bpl_img_hs{
+        height: auto;
+        width: 100%;
+    }
+    #header_section{
+        height: auto;
+    }
+    #header_section .nav{
+        margin-top: 20px;
+    }
+    #header_section #contain{
+        position: relative;
+        background-color: rgba(255, 255, 255, .6);
+    }
+    #header_section #contain .btn{
+        font-size: 16pt;
+    }
+    #header_section #top_img_hs{
+        right: 0;
+        width: 85vw;
+    }
+    #header_section #bottom_img_hs{
+        width: 100vw;
+    }
+    #header_section #contain_img_hs{
+        top: 35vh;
+        right: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    #img_quote_section{
+        margin-top: 40px;
+    }
+    #img_quote_section img{
+        width: 100%;
+    }
+
+    #program_section{
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
+
+    #program_section #voucher{
+        width: 90%;
+        margin-top: 28px;
+        margin-bottom: 16px;
+    }
+
+    #program_section .wave.top{
+        top: -40px;
+    }
+
+    #program_section .wave.bot{
+        bottom: -40px;
+    }
+
+    #program_section #bottom_img_ps{
+        bottom: -95px;
+        width: 75vw;
+    }
+
+    #keungugulan_section #points{
+        margin-bottom: 50px;
+    }
+    #keungugulan_section #points .points-list{
+        text-align: center;
+        padding-top: 10px;
+    }
+    #keungugulan_section #points .points-list .text-left{
+        text-align: center!important;
+    }
+    #keungugulan_section #points .points-list img{
+        width: 35%;
+    }
+    #keungugulan_section iframe{
+        width: 300px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+
+    #keungugulan_section #points h4{
+        font-size: 15pt;
+    }
+
+    #keungugulan_section #points p{
+        font-size: 12pt;
+    }
+
+    #pendaftaran_section .btn_color2{
+        font-size: 14pt;
+    }
+}

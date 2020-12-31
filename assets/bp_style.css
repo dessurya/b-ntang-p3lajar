@@ -1,0 +1,267 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    color: #636363;
+    font-weight: 500;
+    font-size: 14pt;
+}
+a{
+    color: #1c9fa0;
+}
+a:hover{
+    color: #1c9fa0;
+    text-decoration: unset;
+}
+h1{
+    font-size: 36pt;
+    font-weight: 900;
+}
+hr.gray{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 8%;
+    height: 8px;
+    background-color: #444444;
+}
+.clearfix{
+    clear: both;
+}
+.only_mobile{
+    display: none;
+}
+.section_padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text_style_color_gray{
+    color: #444444;
+}
+.text_style_color_aqua{
+    color: #1c9fa0;
+}
+.btn{
+    color: #ffffff;
+    transition: all .51s;
+    border: solid rgba(0, 0, 0, 0) .8px;
+    margin-bottom: 10px;
+}
+.btn_color1{
+    background-color: #055790;
+}
+.btn_color1:hover{
+    background-color: #ffffff;
+    border: solid #1e9ea1 .8px;
+    color: #1e9ea1;
+}
+.btn_color2{
+    background-color: #1e9ea1;
+}
+.btn_color2:hover{
+    background-color: #ffffff;
+    border: solid #055790 .8px;
+    color: #055790;
+}
+/* #header_section */
+    #header_section{
+        position: relative;
+        width: 100%;
+        height: 118vh;
+    }
+    #header_section #top_img_hs{
+        position: absolute;
+        top: -5px;
+        right: -2.5vw;
+        width: 70vw;
+    }
+
+    #header_section #contain_img_hs{
+        position: absolute;
+        bottom: -7.5vh;
+        right: 2vw;
+        height: 90vh;
+    }
+
+    #header_section #bottom_img_hs{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 65vw;
+    }
+
+    #header_section #logo_hs #bpl_img_hs{
+        height: 120px;
+    }
+
+    #header_section span{
+        font-weight: 700;
+    }
+
+    #header_section #logo_hs a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #header_section #logo_hs img{
+        height: 36px;
+    }
+
+    #header_section #contain p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #header_section #contain .btn{
+        font-size: 16pt;
+        font-weight: 500;
+        border-radius: 10px;
+    }
+/* #header_section */
+
+/* #img_quote_section */
+    #img_quote_section{
+        margin-top: 50px;
+    }
+    #img_quote_section img{
+        width: 95%;
+    }
+/* #img_quote_section */
+
+/* #program_section */
+    #program_section{
+        position: relative;
+        background-color: #209da1;
+        margin-top: 175px;
+        margin-bottom: 120px;
+        color: #ffffff;
+    }
+    #program_section #white{
+        margin-top: 12px;
+        margin-bottom: 24px;
+        width: 8%;
+        height: 8px;
+        background-color: #ffffff;
+    }
+    #program_section .wave{
+        width: 100%;
+        position: absolute;
+    }
+    #program_section .wave.top{
+        top: -150px;
+    }
+    #program_section .wave.bot{
+        bottom: -150px;
+    }
+    #program_section #bottom_img_ps{
+        position: absolute;
+        z-index: -1;
+        bottom: -285px;
+        right: 0;
+        width: 80vw;
+    }
+    #program_section #program{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    #program_section #voucher{
+        width: 65%;
+        margin-top: 48px;
+        margin-bottom: 26px;
+    }
+    #program_section h6{
+        font-weight: 700;
+    }
+/* #program_section */
+
+/* #keungugulan_section */
+    #keungugulan_section .points-list{
+        padding-top: 50px;
+    }
+    #keungugulan_section #points{
+        margin-bottom: 90px;
+    }
+    #keungugulan_section #points h4{
+        font-weight: 900;
+        font-size: 19pt;
+        margin-bottom: 20px;
+    }
+    #keungugulan_section #points p{
+        font-size: 16pt;
+    }
+    #keungugulan_section #points .points-list img{
+        width: 85%;
+    }
+    #keungugulan_section iframe{
+        width: 825px;
+        height: 450px;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+/* #keungugulan_section */
+
+/* #pendaftaran_section */
+    #pendaftaran_section{
+        position: relative;
+        padding-top: 110px;
+    }
+    #pendaftaran_section h2,
+    #pendaftaran_section h3,
+    #pendaftaran_section a{
+        font-weight: 800;
+    }
+    #pendaftaran_section #top_img_ps{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70vw;
+    }
+    #pendaftaran_section .btn_color2{
+        font-size: 2rem;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        padding: 1.5rem;
+    }
+    #pendaftaran_section #links .row{
+        margin-bottom: 50px;
+    }
+    #pendaftaran_section #links .table{
+        position: relative;
+        width: 100%;
+        display: table;
+    }
+    #pendaftaran_section #links .table-row{
+        width: 100%;
+        display: table-row;
+    }
+    #pendaftaran_section #links .table-cell{
+        width: 50%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    #pendaftaran_section #links img{
+        height: 110px;
+    }
+    #pendaftaran_section #links h4{
+        width: 65%;
+    }
+/* #pendaftaran_section */
+
+/* #footer */
+    #footer{
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        background-color: #e3f7f5;
+    }
+    #footer img{
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    #footer h2{
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+    #footer #devby{
+        margin-top: 30px;
+    }
+/* #footer */
