@@ -83,7 +83,7 @@
 
     #program_section{
         margin-top: 60px;
-        margin-bottom: 75px;
+        margin-bottom: 60px;
     }
 
     #program_section #voucher{
@@ -93,15 +93,15 @@
     }
 
     #program_section .wave.top{
-        top: -40px;
+        top: -32.5px;
     }
 
     #program_section .wave.bot{
-        bottom: -40px;
+        bottom: -30px;
     }
 
     #program_section #bottom_img_ps{
-        bottom: -95px;
+        bottom: -80px;
         width: 75vw;
     }
 
@@ -116,6 +116,7 @@
         text-align: center!important;
     }
     #keungugulan_section #points .points-list img{
+        display: none;
         width: 35%;
     }
     #keungugulan_section iframe{
@@ -134,5 +135,11 @@
 
     #pendaftaran_section .btn_color2{
         font-size: 14pt;
+    }
+    #pendaftaran_section #links img{
+        height: 85px;
+    }
+    #pendaftaran_section #links h4{
+        font-size: 12pt;
     }
 }
