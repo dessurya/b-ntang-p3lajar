@@ -92,8 +92,9 @@ hr.gray{
         height: 120px;
     }
 
-    #header_section span{
+    #header_section #home-link{
         font-weight: 700;
+        color: #636363;
     }
 
     #header_section #logo_hs a{
