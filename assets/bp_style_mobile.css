@@ -33,7 +33,7 @@
         display: none;
     }
     .only_mobile{
-        display: initial;
+        display: inherit;
     }
     .section_padding{
         padding-top: 25px;
@@ -45,6 +45,10 @@
     }
     #header_section{
         height: auto;
+    }
+    #header_section #contain p{
+        display: inherit;
+        margin-bottom: 20px;
     }
     #header_section .nav{
         margin-top: 20px;
@@ -64,7 +68,7 @@
         width: 100vw;
     }
     #header_section #contain_img_hs{
-        top: 35vh;
+        bottom: 17.5vh;
         right: 0;
         height: auto;
         width: 100%;
